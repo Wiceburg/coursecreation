@@ -13,6 +13,10 @@ public class CustomUserDetails extends User implements UserDetails{
 
 	private static final long serialVersionUID = 344094893169692400L;
 
+	public CustomUserDetails(UserDetails userDetails) {
+		// TODO Auto-generated constructor stub
+	}
+
 	@Override
 	public Set<Authorities> getAuthorities() {
 		// TODO Auto-generated method stub
